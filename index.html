@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="start-button-container">
+      <button id="start-quiz-button">Start Quiz</button>
+    </div>
+    <div class="MainContainer">
+      <div class="quiz-header">
+        <span>Quiz App</span>
+        <div class="header-data">
+            <span id="question-counter">Question 1/5</span>
+            <span id="score">Score : 00</span>
+        </div>
+        <div class="timer">Test ends in : <span id="timer"></span></div>
+      </div>
+      <div class="Question">
+        <div id="question-text">What is 2+2</div>
+        <div class="options">
+          <div class="option" id="option-1">5</div>
+          <div class="option" id="option-2">10</div>
+          <div class="option" id="option-3">4</div>
+          <div class="option" id="option-4">2</div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="Finish-button">Finish</button>
+        <button id="next-button">Next</button>
+      </div>
+    </div>
+    <div class="scoreboard">
+      <h1>Quiz Completed!</h1>
+      <p>Your score: <span id="final-score">0</span></p>
+      <button id="restart-button">Restart</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
